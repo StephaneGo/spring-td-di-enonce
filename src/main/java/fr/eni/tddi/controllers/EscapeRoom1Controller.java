@@ -1,7 +1,8 @@
 package fr.eni.tddi.controllers;
 
+import org.springframework.stereotype.Controller;
 
-
+@Controller
 public class EscapeRoom1Controller {
 
 	public void entreeSalle1() {
