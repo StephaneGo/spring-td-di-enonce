@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 @Profile("passage1")
 @Service("roomService")
-public class EscapeTrapService {
+public class EscapeTrapService implements RoomService{
 
 	
 	public String entreeSalle() {

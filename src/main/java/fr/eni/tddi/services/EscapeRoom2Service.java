@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 @Profile("passage2")
-
+@Service
 public class EscapeRoom2Service {
 	
 	public String entreeSalle(){

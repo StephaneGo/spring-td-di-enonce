@@ -21,13 +21,13 @@ public class TdNiv1DiApplication {
 		EscapeRoom1Controller room1 = (EscapeRoom1Controller) ctx.getBean("escapeRoom1Controller");
 		room1.entreeSalle1();
 		
-		System.out.println("Entrée dans la salle 2 : ");
-		EscapeRoom2Controller room2 = (EscapeRoom2Controller) ctx.getBean("room2");
-		room2.entreeSalle2();
-		
-		System.out.println("Entrée dans la salle du trésor : ");
-		TreasureRoomController treasureRoom = (TreasureRoomController) ctx.getBean("salleTresor");
-		System.out.println(treasureRoom.fin());
+//		System.out.println("Entrée dans la salle 2 : ");
+//		EscapeRoom2Controller room2 = (EscapeRoom2Controller) ctx.getBean("room2");
+//		room2.entreeSalle2();
+//		
+//		System.out.println("Entrée dans la salle du trésor : ");
+//		TreasureRoomController treasureRoom = (TreasureRoomController) ctx.getBean("salleTresor");
+//		System.out.println(treasureRoom.fin());
 				
 	}
 
